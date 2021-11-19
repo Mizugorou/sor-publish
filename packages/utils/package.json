@@ -1,0 +1,24 @@
+{
+  "name": "sor-utils",
+  "version": "0.0.1",
+  "description": "test public sor-utils",
+  "main": "lib/utils.js",
+  "module": "lib/utils.js",
+  "exports": {
+    ".": {
+      "default": "./lib/utils.js"
+    },
+    "./lib/asdf.js": "./lib/uuid.js"
+  },
+  "types": "lib/utils.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Refinitiv/refinitiv-ui.git",
+    "directory": "packages/utils"
+  },
+  "author": "Refinitiv",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc --sourceMap --declarationMap"
+  }
+}

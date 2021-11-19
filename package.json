@@ -1,0 +1,23 @@
+{
+  "name": "sor-publish",
+  "version": "1.0.0",
+  "description": "test publish to npm. pls ignore",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --sourceMap --declarationMap",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theeraphat-Sorasetsakul/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Theeraphat-Sorasetsakul/test/issues"
+  },
+  "homepage": "https://github.com/Theeraphat-Sorasetsakul/test#readme",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}
